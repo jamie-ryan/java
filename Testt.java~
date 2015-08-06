@@ -1,0 +1,14 @@
+public class Testt {
+
+	public static void main(String args[]){		
+		int a, b;
+		a = 10;
+		/*syntax: variable x = (expression) ? value if true : value if false
+remember that the operator == checks if values of two operands are equal or not, if yes then condition becomes true*/
+		b = (a == 1) ? 20: 30; /* i.e, false so b = 30*/
+		System.out.println("Value of b is :" + b);
+
+		b = (a == 10) ? 20: 30; /* i.e, true so b = 20*/
+		System.out.println("Value of b is :" + b );
+		}
+}
